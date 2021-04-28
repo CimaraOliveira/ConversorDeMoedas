@@ -12,44 +12,57 @@
 
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/valor_em_real" />
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:text="@string/qual_valor_em_real" />
     />
 
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:id="@+id/editValor"
-        android:text="" />
+        android:layout_gravity="center"
+        android:text=""
+        android:layout_marginTop="8dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
         android:text="@string/valor_em_d_lar" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/teal_700"
         android:text="@string/valor_em_d_lar"
         android:id="@+id/textDolar"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:text="@string/valor_em_euro" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/valor_em_euro"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
         android:id="@+id/textEuro"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/calcular"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/white"
         android:id="@+id/buttonCalculate"/>
 
 </LinearLayout>
