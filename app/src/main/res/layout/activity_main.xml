@@ -25,6 +25,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/editValor"
         android:layout_gravity="center"
+        android:textAlignment="center"
+        android:inputType="numberSigned"
         android:text=""
         android:layout_marginTop="8dp"/>
 
@@ -39,7 +41,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:textColor="@color/teal_700"
         android:text="@string/valor_em_d_lar"
         android:id="@+id/textDolar"/>
 
